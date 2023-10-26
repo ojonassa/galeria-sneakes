@@ -1,6 +1,3 @@
-Claro, aqui está um exemplo de um arquivo `README.md` para o seu projeto:
-
-```markdown
 # Galeria dos Sneakers
 
 Este é um projeto de uma galeria de sneakers, onde os usuários podem visualizar diferentes modelos de sneakers e obter informações sobre cada um deles.
@@ -45,4 +42,3 @@ Se você quiser contribuir para este projeto, sinta-se à vontade para abrir uma
 ## Licença
 
 Este projeto está sob a Licença [MIT](LICENSE).
-```
