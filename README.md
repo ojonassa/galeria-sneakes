@@ -33,7 +33,7 @@ Este é um projeto de uma galeria de sneakers, onde os usuários podem visualiza
 
 ## Screenshots
 
-![Screenshot 1](screenshot1.png)
+![Alt text](image.png)
 
 ## Contribuindo
 
