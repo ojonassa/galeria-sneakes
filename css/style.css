@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.wrapper {
+    flex-grow: 1;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #3db36b;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    border-bottom: #0f642f solid 2.3px;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+/* Grid de Produtos */
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 4rem;
+    margin-top: 1rem;
+    background-color: #eee;
+    min-height: 60%;
+
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    list-style: none;
+
+
+
+}
+
+.grid-container li {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+
+}
+
+h3,
+p,
+a {
+    margin-bottom: 0;
+}
+
+.img-itens {
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    flex-grow: 1;
+}
+
+#img-1 {
+    background-image: url('../img/tenis1.jpg');
+}
+
+#img-2 {
+    background-image: url('../img/tenis2.jpg');
+}
+
+#img-3 {
+    background-image: url('../img/tenis3.jpg');
+}
+
+#img-4 {
+    background-image: url('../img/tenis4.jpg');
+}
+
+#img-5 {
+    background-image: url('../img/tenis5.jpg');
+}
+
+#img-6 {
+    background-image: url('../img/tenis6.jpg');
+}
+
+.six {
+    margin-bottom: 3.7rem;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #3db36b;
+    font-size: 24px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #3db36b;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+
+.btn:hover {
+    background-color: #0f642f;
+}
+
+/* Footer */
+footer {
+    background-color: #3db36b;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+
+}
